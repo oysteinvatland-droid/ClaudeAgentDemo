@@ -7,23 +7,23 @@
 
 /* ── Variables ─────────────────────────────────────────────── */
 :root {
-  --bg-base:      #090c15;
-  --bg-surface:   #0e1220;
-  --bg-card:      #141929;
-  --bg-hover:     #1e2740;
+  --bg-base:      #f0f4f8;
+  --bg-surface:   #e8edf4;
+  --bg-card:      #ffffff;
+  --bg-hover:     #dde4ef;
 
-  --border-subtle:  rgba(148, 163, 184, 0.07);
-  --border-default: rgba(148, 163, 184, 0.13);
+  --border-subtle:  rgba(99, 120, 160, 0.1);
+  --border-default: rgba(99, 120, 160, 0.2);
 
-  --text-primary:   #e2e8f5;
-  --text-secondary: #8fa3bf;
-  --text-muted:     #576880;
+  --text-primary:   #1a2337;
+  --text-secondary: #4a5f7a;
+  --text-muted:     #8096b4;
 
-  --blue-light:   #60a5fa;
-  --green-light:  #34d399;
-  --violet-light: #a78bfa;
-  --red:          #f43f5e;
-  --amber:        #f59e0b;
+  --blue-light:   #2563eb;
+  --green-light:  #059669;
+  --violet-light: #7c3aed;
+  --red:          #e11d48;
+  --amber:        #d97706;
   --green:        #10b981;
 
   --color-price:     var(--blue-light);
@@ -115,7 +115,7 @@ a:hover { opacity: 0.8; }
   flex-shrink: 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 28px;
   padding: 10px 16px;
 }
 
@@ -232,7 +232,7 @@ a:hover { opacity: 0.8; }
   flex: 1;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 28px;
   padding: 0 16px 12px;
   min-height: 0; /* critical for flex child to shrink */
 }
@@ -246,6 +246,7 @@ a:hover { opacity: 0.8; }
   padding: 12px 14px 10px;
   min-height: 0;
   overflow: hidden;
+  aspect-ratio: 1 / 1;
 }
 
 .chart-head {
