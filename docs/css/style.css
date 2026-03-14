@@ -29,6 +29,7 @@
   --color-price:     var(--blue-light);
   --color-exchange:  var(--green-light);
   --color-reservoir: var(--violet-light);
+  --color-fuel:      var(--amber);
 
   --font: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --r-md: 10px;
@@ -114,7 +115,7 @@ a:hover { opacity: 0.8; }
 .cards-row {
   flex-shrink: 0;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 28px;
   padding: 10px 16px;
 }
@@ -141,6 +142,7 @@ a:hover { opacity: 0.8; }
 .card-price::before    { background: var(--color-price); }
 .card-exchange::before { background: var(--color-exchange); }
 .card-reservoir::before { background: var(--color-reservoir); }
+.card-fuel::before     { background: var(--color-fuel); }
 
 .card-icon {
   font-size: 1.1rem;
@@ -156,6 +158,7 @@ a:hover { opacity: 0.8; }
 .card-price .card-icon    { background: rgba(96, 165, 250, 0.12); }
 .card-exchange .card-icon { background: rgba(52, 211, 153, 0.12); }
 .card-reservoir .card-icon { background: rgba(167, 139, 250, 0.12); }
+.card-fuel .card-icon     { background: rgba(244, 184, 96, 0.12); }
 
 .card-body {
   flex: 1;
@@ -191,6 +194,7 @@ a:hover { opacity: 0.8; }
 .card-price .card-number    { color: var(--color-price); }
 .card-exchange .card-number { color: var(--color-exchange); }
 .card-reservoir .card-number { color: var(--color-reservoir); }
+.card-fuel .card-number     { color: var(--color-fuel); }
 
 .card-unit {
   font-size: 0.7rem;
@@ -231,7 +235,7 @@ a:hover { opacity: 0.8; }
 .charts-grid {
   flex: 1;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 28px;
   padding: 0 16px 12px;
   min-height: 0; /* critical for flex child to shrink */

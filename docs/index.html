@@ -28,6 +28,7 @@
         <a href="https://www.hvakosterstrommen.no" target="_blank" rel="noopener">Strømpris</a>
         <a href="https://data.norges-bank.no" target="_blank" rel="noopener">Norges Bank</a>
         <a href="https://biapi.nve.no" target="_blank" rel="noopener">NVE</a>
+        <a href="https://drivstoffpriser.no" target="_blank" rel="noopener">Drivstoff</a>
       </span>
     </div>
   </header>
@@ -74,6 +75,19 @@
       <div class="card-status loading" id="status-reservoir"></div>
     </div>
 
+    <div class="card card-fuel">
+      <div class="card-icon">⛽</div>
+      <div class="card-body">
+        <div class="card-label">Petrol 95 <span class="card-zone">Norway</span></div>
+        <div class="card-val">
+          <span class="card-number" id="currentFuel">—</span>
+          <span class="card-unit">NOK/L</span>
+        </div>
+      </div>
+      <div class="card-change neutral" id="fuelChange">—</div>
+      <div class="card-status loading" id="status-fuel"></div>
+    </div>
+
   </div>
 
   <!-- Charts grid — fills remaining viewport -->
@@ -117,6 +131,20 @@
       </div>
       <div class="chart-area">
         <canvas id="chartReservoir"></canvas>
+      </div>
+    </div>
+
+    <div class="chart-panel">
+      <div class="chart-head">
+        <span class="chart-title">⛽ Petrol 95 — 12 Month</span>
+        <span class="chart-stats">
+          <span class="cs" id="fuelHigh">—</span> high ·
+          <span class="cs" id="fuelLow">—</span> low ·
+          <span class="cs" id="fuelAvg">—</span> avg
+        </span>
+      </div>
+      <div class="chart-area">
+        <canvas id="chartFuel"></canvas>
       </div>
     </div>
 

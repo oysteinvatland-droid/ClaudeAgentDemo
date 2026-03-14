@@ -19,6 +19,8 @@ const COLOR = {
   reservoir: '#a78bfa',
   resFill:   'rgba(167, 139, 250, 0.15)',
   median:    'rgba(167, 139, 250, 0.35)',
+  fuel:      '#f4b860',
+  fuelFill:  'rgba(244, 184, 96, 0.15)',
 };
 
 /* ── Shared chart options ──────────────────────────────────── */
@@ -256,6 +258,46 @@ async function loadReservoirs() {
   new Chart(ctx, { type: 'line', data: { labels, datasets }, options: opts });
 }
 
+/* ── Load & render: Fuel Prices ────────────────────────────── */
+async function loadFuel() {
+  const data = await fetch('data/fuel.json').then(r => r.json());
+  const history = data.history || [];
+  const cur = data.current || {};
+
+  setText('currentFuel', cur.price_nok != null ? cur.price_nok.toFixed(2) : '—');
+  if (cur.change_week != null) {
+    setChange('fuelChange', cur.change_week,
+      `${Math.abs(cur.change_week).toFixed(2)}/w`);
+  }
+  setStatus('fuel', 'ok');
+
+  const values = history.map(d => d.price_nok);
+  const s = stats(values);
+  setText('fuelHigh', s.max.toFixed(2));
+  setText('fuelLow', s.min.toFixed(2));
+  setText('fuelAvg', s.avg.toFixed(2));
+
+  const ctx = document.getElementById('chartFuel')?.getContext('2d');
+  if (!ctx) return;
+
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: shortLabels(history.map(d => d.date)),
+      datasets: [{
+        data: values,
+        borderColor: COLOR.fuel,
+        borderWidth: 1.5,
+        backgroundColor: makeGradient(ctx, COLOR.fuelFill),
+        fill: true,
+        pointRadius: 0,
+        tension: 0.3,
+      }],
+    },
+    options: chartOpts(c => `${c.parsed.y.toFixed(2)} NOK/L`),
+  });
+}
+
 /* ── Timestamp ─────────────────────────────────────────────── */
 function setTimestamp(iso) {
   const el = document.getElementById('updatedTime');
@@ -274,6 +316,7 @@ async function init() {
     loadPrices().catch(() => setStatus('price', 'error')),
     loadExchange().catch(() => setStatus('exchange', 'error')),
     loadReservoirs().catch(() => setStatus('reservoir', 'error')),
+    loadFuel().catch(() => setStatus('fuel', 'error')),
   ]);
 
   try {
