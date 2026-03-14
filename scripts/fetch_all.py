@@ -19,6 +19,7 @@ FETCHERS = [
     ("Electricity Prices",   SCRIPTS_DIR / "fetch_prices.py"),
     ("NOK/USD Exchange Rate", SCRIPTS_DIR / "fetch_exchange.py"),
     ("Reservoir Levels",     SCRIPTS_DIR / "fetch_reservoirs.py"),
+    ("Petrol Prices (SSB)",  SCRIPTS_DIR / "fetch_fuel.py"),
 ]
 
 

@@ -53,6 +53,11 @@ jobs:
         run: python scripts/fetch_reservoirs.py
         continue-on-error: true
 
+      - name: Fetch petrol prices (SSB table 09654)
+        id: fetch-fuel
+        run: python scripts/fetch_fuel.py
+        continue-on-error: true
+
       - name: Check if any data was updated
         id: check-changes
         run: |
@@ -70,10 +75,11 @@ jobs:
           PRICES_STATUS="${{ steps.fetch-prices.outcome }}"
           EXCHANGE_STATUS="${{ steps.fetch-exchange.outcome }}"
           RESERVOIRS_STATUS="${{ steps.fetch-reservoirs.outcome }}"
+          FUEL_STATUS="${{ steps.fetch-fuel.outcome }}"
 
           git commit -m "data: refresh energy market data $(date -u '+%Y-%m-%d %H:%M UTC')
 
-          Prices: ${PRICES_STATUS} | Exchange: ${EXCHANGE_STATUS} | Reservoirs: ${RESERVOIRS_STATUS}
+          Prices: ${PRICES_STATUS} | Exchange: ${EXCHANGE_STATUS} | Reservoirs: ${RESERVOIRS_STATUS} | Fuel: ${FUEL_STATUS}
           Triggered by: ${{ github.event_name }}"
 
           git push
@@ -86,12 +92,14 @@ jobs:
         if: |
           steps.fetch-prices.outcome == 'failure' ||
           steps.fetch-exchange.outcome == 'failure' ||
-          steps.fetch-reservoirs.outcome == 'failure'
+          steps.fetch-reservoirs.outcome == 'failure' ||
+          steps.fetch-fuel.outcome == 'failure'
         run: |
           echo "⚠️ One or more data sources failed:"
           echo "  Prices:     ${{ steps.fetch-prices.outcome }}"
           echo "  Exchange:   ${{ steps.fetch-exchange.outcome }}"
           echo "  Reservoirs: ${{ steps.fetch-reservoirs.outcome }}"
+          echo "  Fuel:       ${{ steps.fetch-fuel.outcome }}"
           echo ""
           echo "The dashboard will continue to show the last successfully fetched data."
           # Don't exit with error — partial updates are acceptable
