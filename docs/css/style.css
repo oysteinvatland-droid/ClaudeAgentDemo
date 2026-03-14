@@ -7,24 +7,24 @@
 
 /* ── Variables ─────────────────────────────────────────────── */
 :root {
-  --bg-base:      #f0f4f8;
-  --bg-surface:   #e8edf4;
-  --bg-card:      #ffffff;
-  --bg-hover:     #dde4ef;
+  --bg-base:      #1c1f2e;
+  --bg-surface:   #22263a;
+  --bg-card:      #2a2f45;
+  --bg-hover:     #323754;
 
-  --border-subtle:  rgba(99, 120, 160, 0.1);
-  --border-default: rgba(99, 120, 160, 0.2);
+  --border-subtle:  rgba(180, 190, 220, 0.07);
+  --border-default: rgba(180, 190, 220, 0.13);
 
-  --text-primary:   #1a2337;
-  --text-secondary: #4a5f7a;
-  --text-muted:     #8096b4;
+  --text-primary:   #dde4f0;
+  --text-secondary: #8fa3c0;
+  --text-muted:     #55688a;
 
-  --blue-light:   #2563eb;
-  --green-light:  #059669;
-  --violet-light: #7c3aed;
-  --red:          #e11d48;
-  --amber:        #d97706;
-  --green:        #10b981;
+  --blue-light:   #7eb8f7;
+  --green-light:  #4dd4a0;
+  --violet-light: #b89cf7;
+  --red:          #f47a8a;
+  --amber:        #f4b860;
+  --green:        #34d399;
 
   --color-price:     var(--blue-light);
   --color-exchange:  var(--green-light);
