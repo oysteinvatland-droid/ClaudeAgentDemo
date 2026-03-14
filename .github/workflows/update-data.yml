@@ -1,0 +1,97 @@
+name: Update Dashboard Data
+
+# Fetch fresh data from all three APIs daily and commit to the repo.
+# GitHub Pages auto-deploys from docs/ so the dashboard refreshes automatically.
+
+on:
+  schedule:
+    # Run at 06:00 UTC every day (after Nord Pool publishes next-day prices ~13:00 CET)
+    # and at 14:30 UTC to catch the new-day prices once published
+    - cron: '0 6 * * *'
+    - cron: '30 14 * * *'
+
+  # Allow manual trigger from GitHub Actions UI
+  workflow_dispatch:
+
+permissions:
+  contents: write   # needed to push updated JSON files
+
+jobs:
+  fetch-and-deploy:
+    name: Fetch Data & Update GitHub Pages
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Fetch full history so we can make clean commits
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch electricity prices (hvakosterstrommen.no)
+        id: fetch-prices
+        run: python scripts/fetch_prices.py
+        continue-on-error: true  # Don't fail the whole job if one source is down
+
+      - name: Fetch NOK/USD exchange rates (Norges Bank)
+        id: fetch-exchange
+        run: python scripts/fetch_exchange.py
+        continue-on-error: true
+
+      - name: Fetch reservoir levels (NVE)
+        id: fetch-reservoirs
+        run: python scripts/fetch_reservoirs.py
+        continue-on-error: true
+
+      - name: Check if any data was updated
+        id: check-changes
+        run: |
+          git diff --quiet docs/data/ && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push updated data
+        if: steps.check-changes.outputs.changed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add docs/data/
+
+          # Include fetch status in commit message
+          PRICES_STATUS="${{ steps.fetch-prices.outcome }}"
+          EXCHANGE_STATUS="${{ steps.fetch-exchange.outcome }}"
+          RESERVOIRS_STATUS="${{ steps.fetch-reservoirs.outcome }}"
+
+          git commit -m "data: refresh energy market data $(date -u '+%Y-%m-%d %H:%M UTC')
+
+          Prices: ${PRICES_STATUS} | Exchange: ${EXCHANGE_STATUS} | Reservoirs: ${RESERVOIRS_STATUS}
+          Triggered by: ${{ github.event_name }}"
+
+          git push
+
+      - name: No changes to commit
+        if: steps.check-changes.outputs.changed == 'false'
+        run: echo "Data files unchanged — no commit needed."
+
+      - name: Report fetch failures
+        if: |
+          steps.fetch-prices.outcome == 'failure' ||
+          steps.fetch-exchange.outcome == 'failure' ||
+          steps.fetch-reservoirs.outcome == 'failure'
+        run: |
+          echo "⚠️ One or more data sources failed:"
+          echo "  Prices:     ${{ steps.fetch-prices.outcome }}"
+          echo "  Exchange:   ${{ steps.fetch-exchange.outcome }}"
+          echo "  Reservoirs: ${{ steps.fetch-reservoirs.outcome }}"
+          echo ""
+          echo "The dashboard will continue to show the last successfully fetched data."
+          # Don't exit with error — partial updates are acceptable

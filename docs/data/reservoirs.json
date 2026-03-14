@@ -1,0 +1,391 @@
+{
+  "current": {
+    "filling_pct": 86.79,
+    "median_pct": 73.13,
+    "vs_median_pct": 13.66,
+    "week": 11,
+    "year": 2026,
+    "date": "2026-03-14",
+    "change_week": 1.05
+  },
+  "history": [
+    {
+      "year": 2025,
+      "week": 11,
+      "date": "2025-03-15",
+      "filling_pct": 69.68,
+      "median_pct": 74.07
+    },
+    {
+      "year": 2025,
+      "week": 12,
+      "date": "2025-03-22",
+      "filling_pct": 70.58,
+      "median_pct": 69.03
+    },
+    {
+      "year": 2025,
+      "week": 13,
+      "date": "2025-03-29",
+      "filling_pct": 70.99,
+      "median_pct": 67.37
+    },
+    {
+      "year": 2025,
+      "week": 14,
+      "date": "2025-04-05",
+      "filling_pct": 72.03,
+      "median_pct": 62.69
+    },
+    {
+      "year": 2025,
+      "week": 15,
+      "date": "2025-04-12",
+      "filling_pct": 71.45,
+      "median_pct": 60.27
+    },
+    {
+      "year": 2025,
+      "week": 16,
+      "date": "2025-04-19",
+      "filling_pct": 71.25,
+      "median_pct": 57.95
+    },
+    {
+      "year": 2025,
+      "week": 17,
+      "date": "2025-04-26",
+      "filling_pct": 63.8,
+      "median_pct": 55.62
+    },
+    {
+      "year": 2025,
+      "week": 18,
+      "date": "2025-05-03",
+      "filling_pct": 58.04,
+      "median_pct": 53.02
+    },
+    {
+      "year": 2025,
+      "week": 19,
+      "date": "2025-05-10",
+      "filling_pct": 56.25,
+      "median_pct": 50.73
+    },
+    {
+      "year": 2025,
+      "week": 20,
+      "date": "2025-05-17",
+      "filling_pct": 51.56,
+      "median_pct": 48.18
+    },
+    {
+      "year": 2025,
+      "week": 21,
+      "date": "2025-05-24",
+      "filling_pct": 48.6,
+      "median_pct": 47.51
+    },
+    {
+      "year": 2025,
+      "week": 22,
+      "date": "2025-05-31",
+      "filling_pct": 50.15,
+      "median_pct": 47.26
+    },
+    {
+      "year": 2025,
+      "week": 23,
+      "date": "2025-06-07",
+      "filling_pct": 47.79,
+      "median_pct": 46.95
+    },
+    {
+      "year": 2025,
+      "week": 24,
+      "date": "2025-06-14",
+      "filling_pct": 43.92,
+      "median_pct": 45.84
+    },
+    {
+      "year": 2025,
+      "week": 25,
+      "date": "2025-06-21",
+      "filling_pct": 42.98,
+      "median_pct": 45.24
+    },
+    {
+      "year": 2025,
+      "week": 26,
+      "date": "2025-06-28",
+      "filling_pct": 43.84,
+      "median_pct": 44.53
+    },
+    {
+      "year": 2025,
+      "week": 27,
+      "date": "2025-07-05",
+      "filling_pct": 45.0,
+      "median_pct": 45.76
+    },
+    {
+      "year": 2025,
+      "week": 28,
+      "date": "2025-07-12",
+      "filling_pct": 49.36,
+      "median_pct": 46.38
+    },
+    {
+      "year": 2025,
+      "week": 29,
+      "date": "2025-07-19",
+      "filling_pct": 50.98,
+      "median_pct": 48.59
+    },
+    {
+      "year": 2025,
+      "week": 30,
+      "date": "2025-07-26",
+      "filling_pct": 47.75,
+      "median_pct": 50.87
+    },
+    {
+      "year": 2025,
+      "week": 31,
+      "date": "2025-08-02",
+      "filling_pct": 45.54,
+      "median_pct": 49.15
+    },
+    {
+      "year": 2025,
+      "week": 32,
+      "date": "2025-08-09",
+      "filling_pct": 47.84,
+      "median_pct": 54.59
+    },
+    {
+      "year": 2025,
+      "week": 33,
+      "date": "2025-08-16",
+      "filling_pct": 48.6,
+      "median_pct": 55.64
+    },
+    {
+      "year": 2025,
+      "week": 34,
+      "date": "2025-08-23",
+      "filling_pct": 52.75,
+      "median_pct": 59.2
+    },
+    {
+      "year": 2025,
+      "week": 35,
+      "date": "2025-08-30",
+      "filling_pct": 52.25,
+      "median_pct": 61.97
+    },
+    {
+      "year": 2025,
+      "week": 36,
+      "date": "2025-09-06",
+      "filling_pct": 51.14,
+      "median_pct": 63.56
+    },
+    {
+      "year": 2025,
+      "week": 37,
+      "date": "2025-09-13",
+      "filling_pct": 51.07,
+      "median_pct": 64.88
+    },
+    {
+      "year": 2025,
+      "week": 38,
+      "date": "2025-09-20",
+      "filling_pct": 51.27,
+      "median_pct": 71.31
+    },
+    {
+      "year": 2025,
+      "week": 39,
+      "date": "2025-09-27",
+      "filling_pct": 52.11,
+      "median_pct": 72.54
+    },
+    {
+      "year": 2025,
+      "week": 40,
+      "date": "2025-10-04",
+      "filling_pct": 53.18,
+      "median_pct": 76.92
+    },
+    {
+      "year": 2025,
+      "week": 41,
+      "date": "2025-10-11",
+      "filling_pct": 56.91,
+      "median_pct": 79.41
+    },
+    {
+      "year": 2025,
+      "week": 42,
+      "date": "2025-10-18",
+      "filling_pct": 60.32,
+      "median_pct": 80.49
+    },
+    {
+      "year": 2025,
+      "week": 43,
+      "date": "2025-10-25",
+      "filling_pct": 61.92,
+      "median_pct": 85.08
+    },
+    {
+      "year": 2025,
+      "week": 44,
+      "date": "2025-11-01",
+      "filling_pct": 65.5,
+      "median_pct": 87.38
+    },
+    {
+      "year": 2025,
+      "week": 45,
+      "date": "2025-11-08",
+      "filling_pct": 62.7,
+      "median_pct": 89.84
+    },
+    {
+      "year": 2025,
+      "week": 46,
+      "date": "2025-11-15",
+      "filling_pct": 65.97,
+      "median_pct": 92.76
+    },
+    {
+      "year": 2025,
+      "week": 47,
+      "date": "2025-11-22",
+      "filling_pct": 68.97,
+      "median_pct": 92.17
+    },
+    {
+      "year": 2025,
+      "week": 48,
+      "date": "2025-11-29",
+      "filling_pct": 74.07,
+      "median_pct": 92.5
+    },
+    {
+      "year": 2025,
+      "week": 49,
+      "date": "2025-12-06",
+      "filling_pct": 78.98,
+      "median_pct": 93.63
+    },
+    {
+      "year": 2025,
+      "week": 50,
+      "date": "2025-12-13",
+      "filling_pct": 84.08,
+      "median_pct": 95.61
+    },
+    {
+      "year": 2025,
+      "week": 51,
+      "date": "2025-12-20",
+      "filling_pct": 86.86,
+      "median_pct": 94.28
+    },
+    {
+      "year": 2025,
+      "week": 52,
+      "date": "2025-12-27",
+      "filling_pct": 87.78,
+      "median_pct": 95.12
+    },
+    {
+      "year": 2026,
+      "week": 1,
+      "date": "2026-01-03",
+      "filling_pct": 84.83,
+      "median_pct": 93.73
+    },
+    {
+      "year": 2026,
+      "week": 2,
+      "date": "2026-01-10",
+      "filling_pct": 88.11,
+      "median_pct": 92.12
+    },
+    {
+      "year": 2026,
+      "week": 3,
+      "date": "2026-01-17",
+      "filling_pct": 91.37,
+      "median_pct": 91.53
+    },
+    {
+      "year": 2026,
+      "week": 4,
+      "date": "2026-01-24",
+      "filling_pct": 91.98,
+      "median_pct": 89.46
+    },
+    {
+      "year": 2026,
+      "week": 5,
+      "date": "2026-01-31",
+      "filling_pct": 92.5,
+      "median_pct": 89.22
+    },
+    {
+      "year": 2026,
+      "week": 6,
+      "date": "2026-02-07",
+      "filling_pct": 93.89,
+      "median_pct": 87.99
+    },
+    {
+      "year": 2026,
+      "week": 7,
+      "date": "2026-02-14",
+      "filling_pct": 94.91,
+      "median_pct": 84.48
+    },
+    {
+      "year": 2026,
+      "week": 8,
+      "date": "2026-02-21",
+      "filling_pct": 90.39,
+      "median_pct": 83.03
+    },
+    {
+      "year": 2026,
+      "week": 9,
+      "date": "2026-02-28",
+      "filling_pct": 85.93,
+      "median_pct": 78.52
+    },
+    {
+      "year": 2026,
+      "week": 10,
+      "date": "2026-03-07",
+      "filling_pct": 85.74,
+      "median_pct": 76.54
+    },
+    {
+      "year": 2026,
+      "week": 11,
+      "date": "2026-03-14",
+      "filling_pct": 86.79,
+      "median_pct": 73.13
+    }
+  ],
+  "meta": {
+    "source": "NVE Magasinstatistikk (seed data — replace with real fetch)",
+    "region": "Norway (national aggregate)",
+    "updated": "2026-03-14T09:42:58.255727Z",
+    "weeks": 53,
+    "note": "SEED DATA — run scripts/fetch_all.py to fetch real data"
+  }
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Norwegian Energy Market Dashboard</title>
+  <meta name="description" content="Live Norwegian electricity prices, NOK/USD exchange rates, and hydroelectric reservoir levels — updated daily via GitHub Actions." />
+
+  <!-- Outfit font via Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="app">
+
+  <!-- ── Header ──────────────────────────────────────────────── -->
+  <header class="header">
+    <div class="header-content">
+      <div class="header-title">
+        <span class="flag">🇳🇴</span>
+        <div>
+          <h1>Norwegian Energy Market</h1>
+          <div class="header-subtitle">Electricity · Exchange Rates · Hydro Reservoirs</div>
+        </div>
+      </div>
+      <div class="header-meta">
+        <span class="updated-label">Updated</span>
+        <span class="updated-time" id="updatedTime">—</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── Main ────────────────────────────────────────────────── -->
+  <main class="main">
+
+    <!-- Summary metric cards -->
+    <div class="cards-grid">
+
+      <!-- Electricity Price -->
+      <div class="card card-price">
+        <div class="card-header">
+          <div class="card-icon card-icon-price">⚡</div>
+          <div class="card-labels">
+            <div class="card-label">Electricity Price</div>
+            <div class="card-zone">NO1 · Oslo / Østlandet</div>
+          </div>
+          <div class="card-status loading" id="status-price" title="Loading..."></div>
+        </div>
+        <div class="card-value">
+          <span class="card-number" id="currentPrice">—</span>
+          <span class="card-unit">øre/kWh</span>
+        </div>
+        <div class="card-change neutral" id="priceChange">Fetching...</div>
+        <canvas class="card-sparkline" id="sparkPrice" aria-hidden="true"></canvas>
+      </div>
+
+      <!-- Exchange Rate -->
+      <div class="card card-exchange">
+        <div class="card-header">
+          <div class="card-icon card-icon-exchange">💱</div>
+          <div class="card-labels">
+            <div class="card-label">Exchange Rate</div>
+            <div class="card-zone">NOK per 1 USD</div>
+          </div>
+          <div class="card-status loading" id="status-exchange" title="Loading..."></div>
+        </div>
+        <div class="card-value">
+          <span class="card-number" id="currentExchange">—</span>
+          <span class="card-unit">NOK/USD</span>
+        </div>
+        <div class="card-change neutral" id="exchangeChange">Fetching...</div>
+        <canvas class="card-sparkline" id="sparkExchange" aria-hidden="true"></canvas>
+      </div>
+
+      <!-- Reservoir Level -->
+      <div class="card card-reservoir">
+        <div class="card-header">
+          <div class="card-icon card-icon-reservoir">💧</div>
+          <div class="card-labels">
+            <div class="card-label">Reservoir Filling</div>
+            <div class="card-zone">Norway · National aggregate</div>
+          </div>
+          <div class="card-status loading" id="status-reservoir" title="Loading..."></div>
+        </div>
+        <div class="card-value">
+          <span class="card-number" id="currentReservoir">—</span>
+          <span class="card-unit">% of capacity</span>
+        </div>
+        <div class="card-change neutral" id="reservoirChange">Fetching...</div>
+        <canvas class="card-sparkline" id="sparkReservoir" aria-hidden="true"></canvas>
+      </div>
+
+    </div><!-- /cards-grid -->
+
+    <!-- ── Full year charts ──────────────────────────────────── -->
+    <div class="charts-section">
+
+      <!-- Electricity prices chart -->
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <div>
+            <h2>⚡ Electricity Prices — 12 Month Trend</h2>
+            <div class="chart-meta">Daily average spot price · NO1 zone (Oslo) · øre/kWh</div>
+          </div>
+          <div class="chart-stats">
+            <div class="chart-stat">
+              <div class="chart-stat-label">12m High</div>
+              <div class="chart-stat-value" id="priceHigh">—</div>
+            </div>
+            <div class="chart-stat">
+              <div class="chart-stat-label">12m Low</div>
+              <div class="chart-stat-value" id="priceLow">—</div>
+            </div>
+            <div class="chart-stat">
+              <div class="chart-stat-label">12m Avg</div>
+              <div class="chart-stat-value" id="priceAvg">—</div>
+            </div>
+          </div>
+        </div>
+        <div class="chart-wrapper">
+          <canvas id="chartPrices" aria-label="Electricity price trend over 12 months"></canvas>
+        </div>
+      </div>
+
+      <!-- Exchange rate chart -->
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <div>
+            <h2>💱 NOK/USD Exchange Rate — 12 Month Trend</h2>
+            <div class="chart-meta">Norwegian krone per US dollar · daily rates · Norges Bank</div>
+          </div>
+          <div class="chart-stats">
+            <div class="chart-stat">
+              <div class="chart-stat-label">12m High</div>
+              <div class="chart-stat-value" id="fxHigh">—</div>
+            </div>
+            <div class="chart-stat">
+              <div class="chart-stat-label">12m Low</div>
+              <div class="chart-stat-value" id="fxLow">—</div>
+            </div>
+            <div class="chart-stat">
+              <div class="chart-stat-label">12m Avg</div>
+              <div class="chart-stat-value" id="fxAvg">—</div>
+            </div>
+          </div>
+        </div>
+        <div class="chart-wrapper">
+          <canvas id="chartExchange" aria-label="NOK/USD exchange rate trend over 12 months"></canvas>
+        </div>
+      </div>
+
+      <!-- Reservoir chart -->
+      <div class="chart-card">
+        <div class="chart-card-header">
+          <div>
+            <h2>💧 Hydroelectric Reservoir Levels — 52 Weeks</h2>
+            <div class="chart-meta">National aggregate filling % vs historical median · NVE</div>
+          </div>
+          <div class="chart-stats">
+            <div class="chart-stat">
+              <div class="chart-stat-label">Current</div>
+              <div class="chart-stat-value" id="resCurrentStat">—</div>
+            </div>
+            <div class="chart-stat">
+              <div class="chart-stat-label">vs Median</div>
+              <div class="chart-stat-value" id="resVsMedian">—</div>
+            </div>
+          </div>
+        </div>
+        <div class="chart-wrapper">
+          <canvas id="chartReservoir" aria-label="Reservoir filling level trend over 52 weeks"></canvas>
+        </div>
+      </div>
+
+    </div><!-- /charts-section -->
+
+  </main>
+
+  <!-- ── Footer ───────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-sources">
+        <span>Data:</span>
+        <a href="https://www.hvakosterstrommen.no" target="_blank" rel="noopener">Strømpris API</a>
+        <span class="separator">·</span>
+        <a href="https://data.norges-bank.no" target="_blank" rel="noopener">Norges Bank</a>
+        <span class="separator">·</span>
+        <a href="https://biapi.nve.no" target="_blank" rel="noopener">NVE Magasinstatistikk</a>
+      </div>
+      <div class="footer-built">
+        Built with
+        <a href="https://github.com/oysteinvatland/ClaudeAgentDemo" target="_blank" rel="noopener">Claude Agent SDK</a>
+        — role-based AI agents demo
+      </div>
+    </div>
+  </footer>
+
+</div><!-- /app -->
+
+<!-- Chart.js from CDN -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="js/dashboard.js"></script>
+</body>
+</html>

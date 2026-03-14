@@ -1,0 +1,2576 @@
+{
+  "current": {
+    "value": 54.28,
+    "unit": "øre/kWh",
+    "zone": "NO1",
+    "date": "2026-03-14",
+    "change_ore": 0.02,
+    "change_pct": 0.0
+  },
+  "today_hourly": [],
+  "history": [
+    {
+      "date": "2025-03-15",
+      "avg_ore_kwh": 60.22,
+      "min_ore_kwh": 50.63,
+      "max_ore_kwh": 70.1,
+      "hours": 24
+    },
+    {
+      "date": "2025-03-16",
+      "avg_ore_kwh": 52.31,
+      "min_ore_kwh": 40.96,
+      "max_ore_kwh": 65.04,
+      "hours": 24
+    },
+    {
+      "date": "2025-03-17",
+      "avg_ore_kwh": 53.95,
+      "min_ore_kwh": 44.36,
+      "max_ore_kwh": 60.97,
+      "hours": 24
+    },
+    {
+      "date": "2025-03-18",
+      "avg_ore_kwh": 49.17,
+      "min_ore_kwh": 41.68,
+      "max_ore_kwh": 59.67,
+      "hours": 24
+    },
+    {
+      "date": "2025-03-19",
+      "avg_ore_kwh": 55.28,
+      "min_ore_kwh": 43.88,
+      "max_ore_kwh": 67.46,
+      "hours": 24
+    },
+    {
+      "date": "2025-03-20",
+      "avg_ore_kwh": 52.31,
+      "min_ore_kwh": 44.33,
+      "max_ore_kwh": 64.25,
+      "hours": 24
+    },
+    {
+      "date": "2025-03-21",
+      "avg_ore_kwh": 50.64,
+      "min_ore_kwh": 39.21,
+      "max_ore_kwh": 63.15,
+      "hours": 24
+    },
+    {
+      "date": "2025-03-22",
+      "avg_ore_kwh": 48.69,
+      "min_ore_kwh": 40.53,
+      "max_ore_kwh": 56.1,
+      "hours": 24
+    },
+    {
+      "date": "2025-03-23",
+      "avg_ore_kwh": 56.14,
+      "min_ore_kwh": 48.47,
+      "max_ore_kwh": 64.1,
+      "hours": 24
+    },
+    {
+      "date": "2025-03-24",
+      "avg_ore_kwh": 48.83,
+      "min_ore_kwh": 37.55,
+      "max_ore_kwh": 60.09,
+      "hours": 24
+    },
+    {
+      "date": "2025-03-25",
+      "avg_ore_kwh": 53.24,
+      "min_ore_kwh": 43.02,
+      "max_ore_kwh": 68.97,
+      "hours": 24
+    },
+    {
+      "date": "2025-03-26",
+      "avg_ore_kwh": 36.9,
+      "min_ore_kwh": 30.54,
+      "max_ore_kwh": 45.07,
+      "hours": 24
+    },
+    {
+      "date": "2025-03-27",
+      "avg_ore_kwh": 50.13,
+      "min_ore_kwh": 38.46,
+      "max_ore_kwh": 61.46,
+      "hours": 24
+    },
+    {
+      "date": "2025-03-28",
+      "avg_ore_kwh": 38.11,
+      "min_ore_kwh": 29.99,
+      "max_ore_kwh": 43.18,
+      "hours": 24
+    },
+    {
+      "date": "2025-03-29",
+      "avg_ore_kwh": 45.55,
+      "min_ore_kwh": 39.41,
+      "max_ore_kwh": 53.1,
+      "hours": 24
+    },
+    {
+      "date": "2025-03-30",
+      "avg_ore_kwh": 53.55,
+      "min_ore_kwh": 46.18,
+      "max_ore_kwh": 62.85,
+      "hours": 24
+    },
+    {
+      "date": "2025-03-31",
+      "avg_ore_kwh": 43.67,
+      "min_ore_kwh": 36.19,
+      "max_ore_kwh": 50.73,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-01",
+      "avg_ore_kwh": 39.81,
+      "min_ore_kwh": 33.5,
+      "max_ore_kwh": 51.31,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-02",
+      "avg_ore_kwh": 37.66,
+      "min_ore_kwh": 32.15,
+      "max_ore_kwh": 47.18,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-03",
+      "avg_ore_kwh": 34.55,
+      "min_ore_kwh": 29.53,
+      "max_ore_kwh": 41.16,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-04",
+      "avg_ore_kwh": 54.71,
+      "min_ore_kwh": 44.07,
+      "max_ore_kwh": 68.11,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-05",
+      "avg_ore_kwh": 47.88,
+      "min_ore_kwh": 36.85,
+      "max_ore_kwh": 60.37,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-06",
+      "avg_ore_kwh": 46.81,
+      "min_ore_kwh": 39.11,
+      "max_ore_kwh": 54.85,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-07",
+      "avg_ore_kwh": 48.23,
+      "min_ore_kwh": 40.93,
+      "max_ore_kwh": 62.22,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-08",
+      "avg_ore_kwh": 51.66,
+      "min_ore_kwh": 40.97,
+      "max_ore_kwh": 61.69,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-09",
+      "avg_ore_kwh": 42.28,
+      "min_ore_kwh": 32.16,
+      "max_ore_kwh": 50.96,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-10",
+      "avg_ore_kwh": 43.92,
+      "min_ore_kwh": 35.35,
+      "max_ore_kwh": 51.43,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-11",
+      "avg_ore_kwh": 51.23,
+      "min_ore_kwh": 41.08,
+      "max_ore_kwh": 65.69,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-12",
+      "avg_ore_kwh": 42.3,
+      "min_ore_kwh": 31.74,
+      "max_ore_kwh": 51.36,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-13",
+      "avg_ore_kwh": 47.84,
+      "min_ore_kwh": 41.31,
+      "max_ore_kwh": 54.21,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-14",
+      "avg_ore_kwh": 55.07,
+      "min_ore_kwh": 42.74,
+      "max_ore_kwh": 66.03,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-15",
+      "avg_ore_kwh": 55.6,
+      "min_ore_kwh": 48.21,
+      "max_ore_kwh": 66.26,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-16",
+      "avg_ore_kwh": 58.53,
+      "min_ore_kwh": 44.11,
+      "max_ore_kwh": 74.66,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-17",
+      "avg_ore_kwh": 48.83,
+      "min_ore_kwh": 42.66,
+      "max_ore_kwh": 61.09,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-18",
+      "avg_ore_kwh": 41.82,
+      "min_ore_kwh": 35.2,
+      "max_ore_kwh": 51.74,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-19",
+      "avg_ore_kwh": 34.57,
+      "min_ore_kwh": 29.77,
+      "max_ore_kwh": 41.52,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-20",
+      "avg_ore_kwh": 21.91,
+      "min_ore_kwh": 16.78,
+      "max_ore_kwh": 25.66,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-21",
+      "avg_ore_kwh": 44.05,
+      "min_ore_kwh": 35.79,
+      "max_ore_kwh": 50.94,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-22",
+      "avg_ore_kwh": 59.23,
+      "min_ore_kwh": 49.61,
+      "max_ore_kwh": 73.25,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-23",
+      "avg_ore_kwh": 40.45,
+      "min_ore_kwh": 32.31,
+      "max_ore_kwh": 46.59,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-24",
+      "avg_ore_kwh": 44.53,
+      "min_ore_kwh": 34.63,
+      "max_ore_kwh": 54.23,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-25",
+      "avg_ore_kwh": 34.54,
+      "min_ore_kwh": 30.22,
+      "max_ore_kwh": 40.82,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-26",
+      "avg_ore_kwh": 61.2,
+      "min_ore_kwh": 46.83,
+      "max_ore_kwh": 77.75,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-27",
+      "avg_ore_kwh": 52.42,
+      "min_ore_kwh": 43.85,
+      "max_ore_kwh": 59.51,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-28",
+      "avg_ore_kwh": 62.15,
+      "min_ore_kwh": 53.72,
+      "max_ore_kwh": 75.21,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-29",
+      "avg_ore_kwh": 36.35,
+      "min_ore_kwh": 31.49,
+      "max_ore_kwh": 45.74,
+      "hours": 24
+    },
+    {
+      "date": "2025-04-30",
+      "avg_ore_kwh": 43.24,
+      "min_ore_kwh": 35.27,
+      "max_ore_kwh": 52.81,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-01",
+      "avg_ore_kwh": 40.57,
+      "min_ore_kwh": 34.15,
+      "max_ore_kwh": 51.83,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-02",
+      "avg_ore_kwh": 39.1,
+      "min_ore_kwh": 31.58,
+      "max_ore_kwh": 48.99,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-03",
+      "avg_ore_kwh": 46.58,
+      "min_ore_kwh": 39.59,
+      "max_ore_kwh": 54.94,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-04",
+      "avg_ore_kwh": 58.4,
+      "min_ore_kwh": 47.9,
+      "max_ore_kwh": 70.99,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-05",
+      "avg_ore_kwh": 49.52,
+      "min_ore_kwh": 42.58,
+      "max_ore_kwh": 57.65,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-06",
+      "avg_ore_kwh": 41.45,
+      "min_ore_kwh": 35.08,
+      "max_ore_kwh": 48.23,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-07",
+      "avg_ore_kwh": 54.56,
+      "min_ore_kwh": 47.26,
+      "max_ore_kwh": 67.41,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-08",
+      "avg_ore_kwh": 51.51,
+      "min_ore_kwh": 39.53,
+      "max_ore_kwh": 58.58,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-09",
+      "avg_ore_kwh": 66.4,
+      "min_ore_kwh": 56.13,
+      "max_ore_kwh": 82.48,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-10",
+      "avg_ore_kwh": 53.93,
+      "min_ore_kwh": 40.88,
+      "max_ore_kwh": 66.06,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-11",
+      "avg_ore_kwh": 53.7,
+      "min_ore_kwh": 43.81,
+      "max_ore_kwh": 67.79,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-12",
+      "avg_ore_kwh": 51.35,
+      "min_ore_kwh": 44.31,
+      "max_ore_kwh": 61.65,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-13",
+      "avg_ore_kwh": 43.78,
+      "min_ore_kwh": 35.99,
+      "max_ore_kwh": 52.83,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-14",
+      "avg_ore_kwh": 45.13,
+      "min_ore_kwh": 33.94,
+      "max_ore_kwh": 51.55,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-15",
+      "avg_ore_kwh": 34.91,
+      "min_ore_kwh": 28.79,
+      "max_ore_kwh": 41.34,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-16",
+      "avg_ore_kwh": 48.58,
+      "min_ore_kwh": 41.35,
+      "max_ore_kwh": 58.46,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-17",
+      "avg_ore_kwh": 43.92,
+      "min_ore_kwh": 36.11,
+      "max_ore_kwh": 51.55,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-18",
+      "avg_ore_kwh": 47.59,
+      "min_ore_kwh": 39.0,
+      "max_ore_kwh": 60.71,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-19",
+      "avg_ore_kwh": 67.9,
+      "min_ore_kwh": 54.74,
+      "max_ore_kwh": 76.99,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-20",
+      "avg_ore_kwh": 71.14,
+      "min_ore_kwh": 53.63,
+      "max_ore_kwh": 91.57,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-21",
+      "avg_ore_kwh": 56.29,
+      "min_ore_kwh": 43.28,
+      "max_ore_kwh": 64.96,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-22",
+      "avg_ore_kwh": 46.32,
+      "min_ore_kwh": 38.21,
+      "max_ore_kwh": 52.58,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-23",
+      "avg_ore_kwh": 49.88,
+      "min_ore_kwh": 41.28,
+      "max_ore_kwh": 64.72,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-24",
+      "avg_ore_kwh": 49.26,
+      "min_ore_kwh": 40.3,
+      "max_ore_kwh": 59.06,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-25",
+      "avg_ore_kwh": 65.35,
+      "min_ore_kwh": 49.36,
+      "max_ore_kwh": 84.9,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-26",
+      "avg_ore_kwh": 43.22,
+      "min_ore_kwh": 36.98,
+      "max_ore_kwh": 50.87,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-27",
+      "avg_ore_kwh": 44.81,
+      "min_ore_kwh": 33.78,
+      "max_ore_kwh": 54.95,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-28",
+      "avg_ore_kwh": 36.67,
+      "min_ore_kwh": 31.82,
+      "max_ore_kwh": 45.0,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-29",
+      "avg_ore_kwh": 44.3,
+      "min_ore_kwh": 35.97,
+      "max_ore_kwh": 56.44,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-30",
+      "avg_ore_kwh": 62.25,
+      "min_ore_kwh": 53.85,
+      "max_ore_kwh": 72.06,
+      "hours": 24
+    },
+    {
+      "date": "2025-05-31",
+      "avg_ore_kwh": 74.03,
+      "min_ore_kwh": 59.27,
+      "max_ore_kwh": 92.03,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-01",
+      "avg_ore_kwh": 60.37,
+      "min_ore_kwh": 46.11,
+      "max_ore_kwh": 70.52,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-02",
+      "avg_ore_kwh": 60.39,
+      "min_ore_kwh": 48.36,
+      "max_ore_kwh": 74.49,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-03",
+      "avg_ore_kwh": 46.74,
+      "min_ore_kwh": 37.85,
+      "max_ore_kwh": 60.23,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-04",
+      "avg_ore_kwh": 58.07,
+      "min_ore_kwh": 49.33,
+      "max_ore_kwh": 72.6,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-05",
+      "avg_ore_kwh": 56.96,
+      "min_ore_kwh": 45.06,
+      "max_ore_kwh": 67.07,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-06",
+      "avg_ore_kwh": 64.74,
+      "min_ore_kwh": 54.09,
+      "max_ore_kwh": 81.35,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-07",
+      "avg_ore_kwh": 67.33,
+      "min_ore_kwh": 50.51,
+      "max_ore_kwh": 87.48,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-08",
+      "avg_ore_kwh": 64.16,
+      "min_ore_kwh": 55.55,
+      "max_ore_kwh": 74.58,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-09",
+      "avg_ore_kwh": 57.57,
+      "min_ore_kwh": 44.04,
+      "max_ore_kwh": 73.63,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-10",
+      "avg_ore_kwh": 77.24,
+      "min_ore_kwh": 64.02,
+      "max_ore_kwh": 89.03,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-11",
+      "avg_ore_kwh": 70.59,
+      "min_ore_kwh": 56.37,
+      "max_ore_kwh": 91.61,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-12",
+      "avg_ore_kwh": 51.03,
+      "min_ore_kwh": 40.48,
+      "max_ore_kwh": 57.48,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-13",
+      "avg_ore_kwh": 59.72,
+      "min_ore_kwh": 47.3,
+      "max_ore_kwh": 77.0,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-14",
+      "avg_ore_kwh": 53.31,
+      "min_ore_kwh": 45.75,
+      "max_ore_kwh": 61.05,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-15",
+      "avg_ore_kwh": 66.54,
+      "min_ore_kwh": 55.95,
+      "max_ore_kwh": 81.9,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-16",
+      "avg_ore_kwh": 69.16,
+      "min_ore_kwh": 54.31,
+      "max_ore_kwh": 80.27,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-17",
+      "avg_ore_kwh": 59.28,
+      "min_ore_kwh": 48.25,
+      "max_ore_kwh": 76.08,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-18",
+      "avg_ore_kwh": 56.14,
+      "min_ore_kwh": 43.18,
+      "max_ore_kwh": 64.06,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-19",
+      "avg_ore_kwh": 54.47,
+      "min_ore_kwh": 47.64,
+      "max_ore_kwh": 68.63,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-20",
+      "avg_ore_kwh": 63.46,
+      "min_ore_kwh": 50.47,
+      "max_ore_kwh": 74.3,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-21",
+      "avg_ore_kwh": 62.82,
+      "min_ore_kwh": 51.61,
+      "max_ore_kwh": 70.77,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-22",
+      "avg_ore_kwh": 52.96,
+      "min_ore_kwh": 45.84,
+      "max_ore_kwh": 67.76,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-23",
+      "avg_ore_kwh": 69.69,
+      "min_ore_kwh": 53.71,
+      "max_ore_kwh": 85.5,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-24",
+      "avg_ore_kwh": 60.41,
+      "min_ore_kwh": 51.74,
+      "max_ore_kwh": 69.31,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-25",
+      "avg_ore_kwh": 57.56,
+      "min_ore_kwh": 44.64,
+      "max_ore_kwh": 73.42,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-26",
+      "avg_ore_kwh": 80.32,
+      "min_ore_kwh": 61.26,
+      "max_ore_kwh": 93.32,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-27",
+      "avg_ore_kwh": 70.76,
+      "min_ore_kwh": 55.01,
+      "max_ore_kwh": 90.55,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-28",
+      "avg_ore_kwh": 72.18,
+      "min_ore_kwh": 59.49,
+      "max_ore_kwh": 89.04,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-29",
+      "avg_ore_kwh": 80.02,
+      "min_ore_kwh": 61.37,
+      "max_ore_kwh": 103.69,
+      "hours": 24
+    },
+    {
+      "date": "2025-06-30",
+      "avg_ore_kwh": 87.82,
+      "min_ore_kwh": 67.94,
+      "max_ore_kwh": 112.35,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-01",
+      "avg_ore_kwh": 88.13,
+      "min_ore_kwh": 73.45,
+      "max_ore_kwh": 113.5,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-02",
+      "avg_ore_kwh": 77.2,
+      "min_ore_kwh": 59.81,
+      "max_ore_kwh": 98.52,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-03",
+      "avg_ore_kwh": 74.66,
+      "min_ore_kwh": 57.98,
+      "max_ore_kwh": 85.4,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-04",
+      "avg_ore_kwh": 65.69,
+      "min_ore_kwh": 50.32,
+      "max_ore_kwh": 83.78,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-05",
+      "avg_ore_kwh": 72.22,
+      "min_ore_kwh": 59.04,
+      "max_ore_kwh": 85.11,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-06",
+      "avg_ore_kwh": 87.16,
+      "min_ore_kwh": 67.6,
+      "max_ore_kwh": 101.53,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-07",
+      "avg_ore_kwh": 82.26,
+      "min_ore_kwh": 68.6,
+      "max_ore_kwh": 104.98,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-08",
+      "avg_ore_kwh": 76.57,
+      "min_ore_kwh": 57.74,
+      "max_ore_kwh": 89.88,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-09",
+      "avg_ore_kwh": 69.12,
+      "min_ore_kwh": 52.0,
+      "max_ore_kwh": 84.24,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-10",
+      "avg_ore_kwh": 66.05,
+      "min_ore_kwh": 50.04,
+      "max_ore_kwh": 75.64,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-11",
+      "avg_ore_kwh": 77.32,
+      "min_ore_kwh": 58.35,
+      "max_ore_kwh": 90.57,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-12",
+      "avg_ore_kwh": 74.96,
+      "min_ore_kwh": 64.58,
+      "max_ore_kwh": 90.03,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-13",
+      "avg_ore_kwh": 74.67,
+      "min_ore_kwh": 59.68,
+      "max_ore_kwh": 90.69,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-14",
+      "avg_ore_kwh": 68.76,
+      "min_ore_kwh": 56.85,
+      "max_ore_kwh": 84.29,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-15",
+      "avg_ore_kwh": 74.23,
+      "min_ore_kwh": 64.94,
+      "max_ore_kwh": 95.54,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-16",
+      "avg_ore_kwh": 89.88,
+      "min_ore_kwh": 72.59,
+      "max_ore_kwh": 112.43,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-17",
+      "avg_ore_kwh": 81.17,
+      "min_ore_kwh": 67.33,
+      "max_ore_kwh": 92.31,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-18",
+      "avg_ore_kwh": 67.11,
+      "min_ore_kwh": 53.15,
+      "max_ore_kwh": 79.38,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-19",
+      "avg_ore_kwh": 69.44,
+      "min_ore_kwh": 54.52,
+      "max_ore_kwh": 81.77,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-20",
+      "avg_ore_kwh": 91.95,
+      "min_ore_kwh": 76.9,
+      "max_ore_kwh": 110.01,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-21",
+      "avg_ore_kwh": 78.36,
+      "min_ore_kwh": 67.32,
+      "max_ore_kwh": 93.92,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-22",
+      "avg_ore_kwh": 84.5,
+      "min_ore_kwh": 64.01,
+      "max_ore_kwh": 105.08,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-23",
+      "avg_ore_kwh": 92.24,
+      "min_ore_kwh": 77.24,
+      "max_ore_kwh": 112.61,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-24",
+      "avg_ore_kwh": 78.8,
+      "min_ore_kwh": 68.95,
+      "max_ore_kwh": 92.61,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-25",
+      "avg_ore_kwh": 71.84,
+      "min_ore_kwh": 56.98,
+      "max_ore_kwh": 86.67,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-26",
+      "avg_ore_kwh": 84.9,
+      "min_ore_kwh": 69.6,
+      "max_ore_kwh": 98.69,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-27",
+      "avg_ore_kwh": 66.7,
+      "min_ore_kwh": 51.73,
+      "max_ore_kwh": 77.02,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-28",
+      "avg_ore_kwh": 82.51,
+      "min_ore_kwh": 71.32,
+      "max_ore_kwh": 100.27,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-29",
+      "avg_ore_kwh": 79.54,
+      "min_ore_kwh": 61.46,
+      "max_ore_kwh": 99.94,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-30",
+      "avg_ore_kwh": 78.54,
+      "min_ore_kwh": 62.11,
+      "max_ore_kwh": 91.44,
+      "hours": 24
+    },
+    {
+      "date": "2025-07-31",
+      "avg_ore_kwh": 84.86,
+      "min_ore_kwh": 71.66,
+      "max_ore_kwh": 102.53,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-01",
+      "avg_ore_kwh": 88.36,
+      "min_ore_kwh": 67.93,
+      "max_ore_kwh": 100.53,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-02",
+      "avg_ore_kwh": 77.88,
+      "min_ore_kwh": 66.25,
+      "max_ore_kwh": 97.1,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-03",
+      "avg_ore_kwh": 91.38,
+      "min_ore_kwh": 74.31,
+      "max_ore_kwh": 106.7,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-04",
+      "avg_ore_kwh": 89.28,
+      "min_ore_kwh": 69.74,
+      "max_ore_kwh": 112.47,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-05",
+      "avg_ore_kwh": 88.81,
+      "min_ore_kwh": 76.53,
+      "max_ore_kwh": 106.52,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-06",
+      "avg_ore_kwh": 99.31,
+      "min_ore_kwh": 80.47,
+      "max_ore_kwh": 112.59,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-07",
+      "avg_ore_kwh": 112.26,
+      "min_ore_kwh": 94.73,
+      "max_ore_kwh": 142.96,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-08",
+      "avg_ore_kwh": 83.11,
+      "min_ore_kwh": 65.78,
+      "max_ore_kwh": 107.86,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-09",
+      "avg_ore_kwh": 93.38,
+      "min_ore_kwh": 74.76,
+      "max_ore_kwh": 120.58,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-10",
+      "avg_ore_kwh": 101.76,
+      "min_ore_kwh": 79.89,
+      "max_ore_kwh": 123.47,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-11",
+      "avg_ore_kwh": 88.39,
+      "min_ore_kwh": 68.16,
+      "max_ore_kwh": 107.91,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-12",
+      "avg_ore_kwh": 103.13,
+      "min_ore_kwh": 84.12,
+      "max_ore_kwh": 120.7,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-13",
+      "avg_ore_kwh": 88.53,
+      "min_ore_kwh": 74.73,
+      "max_ore_kwh": 109.48,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-14",
+      "avg_ore_kwh": 93.89,
+      "min_ore_kwh": 74.8,
+      "max_ore_kwh": 110.14,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-15",
+      "avg_ore_kwh": 84.72,
+      "min_ore_kwh": 73.31,
+      "max_ore_kwh": 99.54,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-16",
+      "avg_ore_kwh": 91.49,
+      "min_ore_kwh": 73.88,
+      "max_ore_kwh": 105.14,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-17",
+      "avg_ore_kwh": 102.2,
+      "min_ore_kwh": 86.47,
+      "max_ore_kwh": 127.39,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-18",
+      "avg_ore_kwh": 97.65,
+      "min_ore_kwh": 80.47,
+      "max_ore_kwh": 119.13,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-19",
+      "avg_ore_kwh": 94.54,
+      "min_ore_kwh": 77.81,
+      "max_ore_kwh": 109.78,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-20",
+      "avg_ore_kwh": 80.94,
+      "min_ore_kwh": 64.91,
+      "max_ore_kwh": 100.91,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-21",
+      "avg_ore_kwh": 101.96,
+      "min_ore_kwh": 78.29,
+      "max_ore_kwh": 128.36,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-22",
+      "avg_ore_kwh": 99.19,
+      "min_ore_kwh": 82.43,
+      "max_ore_kwh": 124.67,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-23",
+      "avg_ore_kwh": 100.0,
+      "min_ore_kwh": 76.83,
+      "max_ore_kwh": 129.19,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-24",
+      "avg_ore_kwh": 87.8,
+      "min_ore_kwh": 70.83,
+      "max_ore_kwh": 108.04,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-25",
+      "avg_ore_kwh": 103.44,
+      "min_ore_kwh": 87.66,
+      "max_ore_kwh": 120.35,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-26",
+      "avg_ore_kwh": 99.81,
+      "min_ore_kwh": 83.14,
+      "max_ore_kwh": 124.15,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-27",
+      "avg_ore_kwh": 101.74,
+      "min_ore_kwh": 83.88,
+      "max_ore_kwh": 117.39,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-28",
+      "avg_ore_kwh": 97.55,
+      "min_ore_kwh": 77.76,
+      "max_ore_kwh": 110.2,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-29",
+      "avg_ore_kwh": 101.81,
+      "min_ore_kwh": 84.07,
+      "max_ore_kwh": 124.59,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-30",
+      "avg_ore_kwh": 114.39,
+      "min_ore_kwh": 98.15,
+      "max_ore_kwh": 137.93,
+      "hours": 24
+    },
+    {
+      "date": "2025-08-31",
+      "avg_ore_kwh": 108.65,
+      "min_ore_kwh": 94.38,
+      "max_ore_kwh": 129.44,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-01",
+      "avg_ore_kwh": 106.98,
+      "min_ore_kwh": 83.43,
+      "max_ore_kwh": 127.45,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-02",
+      "avg_ore_kwh": 112.26,
+      "min_ore_kwh": 87.68,
+      "max_ore_kwh": 142.64,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-03",
+      "avg_ore_kwh": 106.84,
+      "min_ore_kwh": 93.23,
+      "max_ore_kwh": 130.28,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-04",
+      "avg_ore_kwh": 109.03,
+      "min_ore_kwh": 81.78,
+      "max_ore_kwh": 129.34,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-05",
+      "avg_ore_kwh": 97.91,
+      "min_ore_kwh": 77.7,
+      "max_ore_kwh": 123.08,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-06",
+      "avg_ore_kwh": 91.61,
+      "min_ore_kwh": 69.28,
+      "max_ore_kwh": 106.25,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-07",
+      "avg_ore_kwh": 106.64,
+      "min_ore_kwh": 91.63,
+      "max_ore_kwh": 132.47,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-08",
+      "avg_ore_kwh": 107.26,
+      "min_ore_kwh": 86.29,
+      "max_ore_kwh": 124.76,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-09",
+      "avg_ore_kwh": 102.62,
+      "min_ore_kwh": 87.64,
+      "max_ore_kwh": 126.35,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-10",
+      "avg_ore_kwh": 92.35,
+      "min_ore_kwh": 72.17,
+      "max_ore_kwh": 105.74,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-11",
+      "avg_ore_kwh": 112.31,
+      "min_ore_kwh": 96.75,
+      "max_ore_kwh": 126.85,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-12",
+      "avg_ore_kwh": 89.69,
+      "min_ore_kwh": 74.98,
+      "max_ore_kwh": 111.54,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-13",
+      "avg_ore_kwh": 111.01,
+      "min_ore_kwh": 87.21,
+      "max_ore_kwh": 126.36,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-14",
+      "avg_ore_kwh": 107.29,
+      "min_ore_kwh": 84.62,
+      "max_ore_kwh": 132.48,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-15",
+      "avg_ore_kwh": 120.2,
+      "min_ore_kwh": 92.4,
+      "max_ore_kwh": 147.86,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-16",
+      "avg_ore_kwh": 121.35,
+      "min_ore_kwh": 104.34,
+      "max_ore_kwh": 157.41,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-17",
+      "avg_ore_kwh": 114.86,
+      "min_ore_kwh": 94.35,
+      "max_ore_kwh": 136.67,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-18",
+      "avg_ore_kwh": 103.96,
+      "min_ore_kwh": 84.39,
+      "max_ore_kwh": 123.16,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-19",
+      "avg_ore_kwh": 117.64,
+      "min_ore_kwh": 101.38,
+      "max_ore_kwh": 152.12,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-20",
+      "avg_ore_kwh": 100.14,
+      "min_ore_kwh": 79.67,
+      "max_ore_kwh": 127.18,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-21",
+      "avg_ore_kwh": 105.37,
+      "min_ore_kwh": 82.53,
+      "max_ore_kwh": 136.35,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-22",
+      "avg_ore_kwh": 100.85,
+      "min_ore_kwh": 84.84,
+      "max_ore_kwh": 127.72,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-23",
+      "avg_ore_kwh": 98.96,
+      "min_ore_kwh": 81.2,
+      "max_ore_kwh": 123.99,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-24",
+      "avg_ore_kwh": 105.66,
+      "min_ore_kwh": 88.91,
+      "max_ore_kwh": 134.62,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-25",
+      "avg_ore_kwh": 111.87,
+      "min_ore_kwh": 85.56,
+      "max_ore_kwh": 130.63,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-26",
+      "avg_ore_kwh": 109.04,
+      "min_ore_kwh": 89.08,
+      "max_ore_kwh": 134.32,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-27",
+      "avg_ore_kwh": 110.01,
+      "min_ore_kwh": 84.55,
+      "max_ore_kwh": 127.26,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-28",
+      "avg_ore_kwh": 113.32,
+      "min_ore_kwh": 96.15,
+      "max_ore_kwh": 143.3,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-29",
+      "avg_ore_kwh": 103.75,
+      "min_ore_kwh": 81.69,
+      "max_ore_kwh": 121.74,
+      "hours": 24
+    },
+    {
+      "date": "2025-09-30",
+      "avg_ore_kwh": 124.92,
+      "min_ore_kwh": 109.15,
+      "max_ore_kwh": 161.26,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-01",
+      "avg_ore_kwh": 128.32,
+      "min_ore_kwh": 104.44,
+      "max_ore_kwh": 161.39,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-02",
+      "avg_ore_kwh": 124.82,
+      "min_ore_kwh": 98.44,
+      "max_ore_kwh": 154.53,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-03",
+      "avg_ore_kwh": 102.14,
+      "min_ore_kwh": 88.19,
+      "max_ore_kwh": 118.87,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-04",
+      "avg_ore_kwh": 111.19,
+      "min_ore_kwh": 87.68,
+      "max_ore_kwh": 131.05,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-05",
+      "avg_ore_kwh": 104.86,
+      "min_ore_kwh": 84.79,
+      "max_ore_kwh": 125.77,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-06",
+      "avg_ore_kwh": 106.68,
+      "min_ore_kwh": 83.4,
+      "max_ore_kwh": 126.19,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-07",
+      "avg_ore_kwh": 110.03,
+      "min_ore_kwh": 92.82,
+      "max_ore_kwh": 126.11,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-08",
+      "avg_ore_kwh": 106.69,
+      "min_ore_kwh": 90.78,
+      "max_ore_kwh": 122.25,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-09",
+      "avg_ore_kwh": 98.27,
+      "min_ore_kwh": 83.71,
+      "max_ore_kwh": 114.27,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-10",
+      "avg_ore_kwh": 106.51,
+      "min_ore_kwh": 86.75,
+      "max_ore_kwh": 133.32,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-11",
+      "avg_ore_kwh": 122.35,
+      "min_ore_kwh": 102.73,
+      "max_ore_kwh": 139.8,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-12",
+      "avg_ore_kwh": 115.53,
+      "min_ore_kwh": 98.28,
+      "max_ore_kwh": 134.57,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-13",
+      "avg_ore_kwh": 115.64,
+      "min_ore_kwh": 93.46,
+      "max_ore_kwh": 135.64,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-14",
+      "avg_ore_kwh": 116.38,
+      "min_ore_kwh": 87.66,
+      "max_ore_kwh": 142.2,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-15",
+      "avg_ore_kwh": 113.94,
+      "min_ore_kwh": 87.33,
+      "max_ore_kwh": 137.97,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-16",
+      "avg_ore_kwh": 110.52,
+      "min_ore_kwh": 84.65,
+      "max_ore_kwh": 135.44,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-17",
+      "avg_ore_kwh": 104.76,
+      "min_ore_kwh": 89.25,
+      "max_ore_kwh": 118.79,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-18",
+      "avg_ore_kwh": 113.65,
+      "min_ore_kwh": 86.08,
+      "max_ore_kwh": 137.36,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-19",
+      "avg_ore_kwh": 118.32,
+      "min_ore_kwh": 102.43,
+      "max_ore_kwh": 146.14,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-20",
+      "avg_ore_kwh": 108.35,
+      "min_ore_kwh": 94.08,
+      "max_ore_kwh": 124.72,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-21",
+      "avg_ore_kwh": 106.39,
+      "min_ore_kwh": 79.87,
+      "max_ore_kwh": 121.9,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-22",
+      "avg_ore_kwh": 109.63,
+      "min_ore_kwh": 85.45,
+      "max_ore_kwh": 134.97,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-23",
+      "avg_ore_kwh": 114.85,
+      "min_ore_kwh": 92.99,
+      "max_ore_kwh": 138.27,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-24",
+      "avg_ore_kwh": 109.05,
+      "min_ore_kwh": 89.39,
+      "max_ore_kwh": 139.1,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-25",
+      "avg_ore_kwh": 120.24,
+      "min_ore_kwh": 95.88,
+      "max_ore_kwh": 148.1,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-26",
+      "avg_ore_kwh": 115.95,
+      "min_ore_kwh": 90.73,
+      "max_ore_kwh": 149.67,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-27",
+      "avg_ore_kwh": 116.57,
+      "min_ore_kwh": 92.37,
+      "max_ore_kwh": 134.34,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-28",
+      "avg_ore_kwh": 120.76,
+      "min_ore_kwh": 103.04,
+      "max_ore_kwh": 137.44,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-29",
+      "avg_ore_kwh": 125.56,
+      "min_ore_kwh": 100.54,
+      "max_ore_kwh": 147.65,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-30",
+      "avg_ore_kwh": 117.88,
+      "min_ore_kwh": 99.74,
+      "max_ore_kwh": 147.2,
+      "hours": 24
+    },
+    {
+      "date": "2025-10-31",
+      "avg_ore_kwh": 112.65,
+      "min_ore_kwh": 88.89,
+      "max_ore_kwh": 144.95,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-01",
+      "avg_ore_kwh": 104.84,
+      "min_ore_kwh": 81.41,
+      "max_ore_kwh": 129.42,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-02",
+      "avg_ore_kwh": 100.88,
+      "min_ore_kwh": 82.91,
+      "max_ore_kwh": 123.11,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-03",
+      "avg_ore_kwh": 93.35,
+      "min_ore_kwh": 74.13,
+      "max_ore_kwh": 119.86,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-04",
+      "avg_ore_kwh": 109.08,
+      "min_ore_kwh": 93.18,
+      "max_ore_kwh": 128.59,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-05",
+      "avg_ore_kwh": 109.32,
+      "min_ore_kwh": 85.42,
+      "max_ore_kwh": 133.87,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-06",
+      "avg_ore_kwh": 111.09,
+      "min_ore_kwh": 87.64,
+      "max_ore_kwh": 138.58,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-07",
+      "avg_ore_kwh": 116.73,
+      "min_ore_kwh": 88.38,
+      "max_ore_kwh": 141.54,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-08",
+      "avg_ore_kwh": 110.64,
+      "min_ore_kwh": 96.26,
+      "max_ore_kwh": 132.84,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-09",
+      "avg_ore_kwh": 112.24,
+      "min_ore_kwh": 93.69,
+      "max_ore_kwh": 131.19,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-10",
+      "avg_ore_kwh": 130.47,
+      "min_ore_kwh": 100.53,
+      "max_ore_kwh": 159.91,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-11",
+      "avg_ore_kwh": 129.4,
+      "min_ore_kwh": 97.85,
+      "max_ore_kwh": 168.22,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-12",
+      "avg_ore_kwh": 114.14,
+      "min_ore_kwh": 99.3,
+      "max_ore_kwh": 143.51,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-13",
+      "avg_ore_kwh": 106.63,
+      "min_ore_kwh": 87.03,
+      "max_ore_kwh": 132.11,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-14",
+      "avg_ore_kwh": 114.67,
+      "min_ore_kwh": 91.95,
+      "max_ore_kwh": 141.74,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-15",
+      "avg_ore_kwh": 109.63,
+      "min_ore_kwh": 89.18,
+      "max_ore_kwh": 125.08,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-16",
+      "avg_ore_kwh": 106.23,
+      "min_ore_kwh": 84.05,
+      "max_ore_kwh": 135.45,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-17",
+      "avg_ore_kwh": 115.55,
+      "min_ore_kwh": 96.35,
+      "max_ore_kwh": 144.03,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-18",
+      "avg_ore_kwh": 107.16,
+      "min_ore_kwh": 82.86,
+      "max_ore_kwh": 130.87,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-19",
+      "avg_ore_kwh": 128.9,
+      "min_ore_kwh": 105.46,
+      "max_ore_kwh": 152.11,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-20",
+      "avg_ore_kwh": 105.65,
+      "min_ore_kwh": 87.11,
+      "max_ore_kwh": 128.38,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-21",
+      "avg_ore_kwh": 128.29,
+      "min_ore_kwh": 96.41,
+      "max_ore_kwh": 159.1,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-22",
+      "avg_ore_kwh": 106.55,
+      "min_ore_kwh": 90.73,
+      "max_ore_kwh": 126.61,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-23",
+      "avg_ore_kwh": 105.86,
+      "min_ore_kwh": 82.61,
+      "max_ore_kwh": 130.67,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-24",
+      "avg_ore_kwh": 108.06,
+      "min_ore_kwh": 87.13,
+      "max_ore_kwh": 139.11,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-25",
+      "avg_ore_kwh": 102.46,
+      "min_ore_kwh": 84.04,
+      "max_ore_kwh": 127.78,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-26",
+      "avg_ore_kwh": 122.51,
+      "min_ore_kwh": 97.87,
+      "max_ore_kwh": 142.95,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-27",
+      "avg_ore_kwh": 127.55,
+      "min_ore_kwh": 109.08,
+      "max_ore_kwh": 155.79,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-28",
+      "avg_ore_kwh": 109.67,
+      "min_ore_kwh": 82.36,
+      "max_ore_kwh": 140.89,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-29",
+      "avg_ore_kwh": 106.35,
+      "min_ore_kwh": 86.92,
+      "max_ore_kwh": 121.83,
+      "hours": 24
+    },
+    {
+      "date": "2025-11-30",
+      "avg_ore_kwh": 111.14,
+      "min_ore_kwh": 87.3,
+      "max_ore_kwh": 134.94,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-01",
+      "avg_ore_kwh": 98.85,
+      "min_ore_kwh": 83.12,
+      "max_ore_kwh": 125.65,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-02",
+      "avg_ore_kwh": 109.69,
+      "min_ore_kwh": 88.42,
+      "max_ore_kwh": 130.76,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-03",
+      "avg_ore_kwh": 105.64,
+      "min_ore_kwh": 80.26,
+      "max_ore_kwh": 128.24,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-04",
+      "avg_ore_kwh": 117.09,
+      "min_ore_kwh": 98.41,
+      "max_ore_kwh": 147.91,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-05",
+      "avg_ore_kwh": 96.5,
+      "min_ore_kwh": 79.43,
+      "max_ore_kwh": 124.34,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-06",
+      "avg_ore_kwh": 86.0,
+      "min_ore_kwh": 72.21,
+      "max_ore_kwh": 101.24,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-07",
+      "avg_ore_kwh": 97.33,
+      "min_ore_kwh": 78.02,
+      "max_ore_kwh": 126.51,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-08",
+      "avg_ore_kwh": 96.42,
+      "min_ore_kwh": 77.87,
+      "max_ore_kwh": 114.29,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-09",
+      "avg_ore_kwh": 100.88,
+      "min_ore_kwh": 81.31,
+      "max_ore_kwh": 123.09,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-10",
+      "avg_ore_kwh": 94.48,
+      "min_ore_kwh": 80.44,
+      "max_ore_kwh": 117.82,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-11",
+      "avg_ore_kwh": 101.38,
+      "min_ore_kwh": 81.46,
+      "max_ore_kwh": 118.2,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-12",
+      "avg_ore_kwh": 101.47,
+      "min_ore_kwh": 79.34,
+      "max_ore_kwh": 126.68,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-13",
+      "avg_ore_kwh": 98.28,
+      "min_ore_kwh": 76.03,
+      "max_ore_kwh": 117.2,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-14",
+      "avg_ore_kwh": 91.42,
+      "min_ore_kwh": 68.78,
+      "max_ore_kwh": 110.77,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-15",
+      "avg_ore_kwh": 83.71,
+      "min_ore_kwh": 72.86,
+      "max_ore_kwh": 101.53,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-16",
+      "avg_ore_kwh": 80.07,
+      "min_ore_kwh": 61.31,
+      "max_ore_kwh": 96.25,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-17",
+      "avg_ore_kwh": 83.83,
+      "min_ore_kwh": 67.84,
+      "max_ore_kwh": 101.01,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-18",
+      "avg_ore_kwh": 92.22,
+      "min_ore_kwh": 73.14,
+      "max_ore_kwh": 106.23,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-19",
+      "avg_ore_kwh": 87.35,
+      "min_ore_kwh": 71.31,
+      "max_ore_kwh": 113.09,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-20",
+      "avg_ore_kwh": 87.21,
+      "min_ore_kwh": 69.23,
+      "max_ore_kwh": 111.11,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-21",
+      "avg_ore_kwh": 104.57,
+      "min_ore_kwh": 80.36,
+      "max_ore_kwh": 133.37,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-22",
+      "avg_ore_kwh": 93.1,
+      "min_ore_kwh": 73.1,
+      "max_ore_kwh": 117.11,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-23",
+      "avg_ore_kwh": 99.65,
+      "min_ore_kwh": 76.32,
+      "max_ore_kwh": 112.73,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-24",
+      "avg_ore_kwh": 107.0,
+      "min_ore_kwh": 81.3,
+      "max_ore_kwh": 139.05,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-25",
+      "avg_ore_kwh": 102.98,
+      "min_ore_kwh": 80.49,
+      "max_ore_kwh": 123.67,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-26",
+      "avg_ore_kwh": 106.14,
+      "min_ore_kwh": 81.29,
+      "max_ore_kwh": 127.65,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-27",
+      "avg_ore_kwh": 103.9,
+      "min_ore_kwh": 81.9,
+      "max_ore_kwh": 133.32,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-28",
+      "avg_ore_kwh": 110.29,
+      "min_ore_kwh": 92.46,
+      "max_ore_kwh": 131.32,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-29",
+      "avg_ore_kwh": 101.73,
+      "min_ore_kwh": 87.16,
+      "max_ore_kwh": 123.9,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-30",
+      "avg_ore_kwh": 80.85,
+      "min_ore_kwh": 69.03,
+      "max_ore_kwh": 92.07,
+      "hours": 24
+    },
+    {
+      "date": "2025-12-31",
+      "avg_ore_kwh": 81.83,
+      "min_ore_kwh": 62.69,
+      "max_ore_kwh": 100.93,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-01",
+      "avg_ore_kwh": 88.79,
+      "min_ore_kwh": 76.1,
+      "max_ore_kwh": 107.05,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-02",
+      "avg_ore_kwh": 107.93,
+      "min_ore_kwh": 91.01,
+      "max_ore_kwh": 126.24,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-03",
+      "avg_ore_kwh": 109.89,
+      "min_ore_kwh": 83.77,
+      "max_ore_kwh": 136.66,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-04",
+      "avg_ore_kwh": 95.81,
+      "min_ore_kwh": 81.94,
+      "max_ore_kwh": 115.2,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-05",
+      "avg_ore_kwh": 83.97,
+      "min_ore_kwh": 66.76,
+      "max_ore_kwh": 100.7,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-06",
+      "avg_ore_kwh": 95.54,
+      "min_ore_kwh": 80.61,
+      "max_ore_kwh": 121.62,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-07",
+      "avg_ore_kwh": 91.97,
+      "min_ore_kwh": 74.92,
+      "max_ore_kwh": 107.29,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-08",
+      "avg_ore_kwh": 95.75,
+      "min_ore_kwh": 76.94,
+      "max_ore_kwh": 117.35,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-09",
+      "avg_ore_kwh": 95.63,
+      "min_ore_kwh": 71.99,
+      "max_ore_kwh": 118.6,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-10",
+      "avg_ore_kwh": 87.83,
+      "min_ore_kwh": 73.84,
+      "max_ore_kwh": 107.51,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-11",
+      "avg_ore_kwh": 79.95,
+      "min_ore_kwh": 69.47,
+      "max_ore_kwh": 98.43,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-12",
+      "avg_ore_kwh": 69.85,
+      "min_ore_kwh": 56.78,
+      "max_ore_kwh": 89.63,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-13",
+      "avg_ore_kwh": 75.77,
+      "min_ore_kwh": 60.55,
+      "max_ore_kwh": 89.92,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-14",
+      "avg_ore_kwh": 95.18,
+      "min_ore_kwh": 75.71,
+      "max_ore_kwh": 117.42,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-15",
+      "avg_ore_kwh": 80.04,
+      "min_ore_kwh": 63.44,
+      "max_ore_kwh": 101.79,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-16",
+      "avg_ore_kwh": 68.9,
+      "min_ore_kwh": 54.88,
+      "max_ore_kwh": 88.4,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-17",
+      "avg_ore_kwh": 72.82,
+      "min_ore_kwh": 59.7,
+      "max_ore_kwh": 89.31,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-18",
+      "avg_ore_kwh": 72.21,
+      "min_ore_kwh": 56.57,
+      "max_ore_kwh": 82.37,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-19",
+      "avg_ore_kwh": 73.45,
+      "min_ore_kwh": 62.66,
+      "max_ore_kwh": 84.33,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-20",
+      "avg_ore_kwh": 90.68,
+      "min_ore_kwh": 73.23,
+      "max_ore_kwh": 117.43,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-21",
+      "avg_ore_kwh": 63.81,
+      "min_ore_kwh": 49.21,
+      "max_ore_kwh": 74.65,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-22",
+      "avg_ore_kwh": 69.98,
+      "min_ore_kwh": 54.02,
+      "max_ore_kwh": 84.63,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-23",
+      "avg_ore_kwh": 79.83,
+      "min_ore_kwh": 66.47,
+      "max_ore_kwh": 91.42,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-24",
+      "avg_ore_kwh": 64.48,
+      "min_ore_kwh": 48.66,
+      "max_ore_kwh": 74.13,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-25",
+      "avg_ore_kwh": 88.8,
+      "min_ore_kwh": 69.66,
+      "max_ore_kwh": 115.12,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-26",
+      "avg_ore_kwh": 75.9,
+      "min_ore_kwh": 57.23,
+      "max_ore_kwh": 96.07,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-27",
+      "avg_ore_kwh": 65.21,
+      "min_ore_kwh": 56.95,
+      "max_ore_kwh": 79.49,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-28",
+      "avg_ore_kwh": 82.57,
+      "min_ore_kwh": 67.55,
+      "max_ore_kwh": 102.61,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-29",
+      "avg_ore_kwh": 71.04,
+      "min_ore_kwh": 54.86,
+      "max_ore_kwh": 91.61,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-30",
+      "avg_ore_kwh": 62.56,
+      "min_ore_kwh": 53.89,
+      "max_ore_kwh": 72.94,
+      "hours": 24
+    },
+    {
+      "date": "2026-01-31",
+      "avg_ore_kwh": 86.66,
+      "min_ore_kwh": 69.75,
+      "max_ore_kwh": 111.37,
+      "hours": 24
+    },
+    {
+      "date": "2026-02-01",
+      "avg_ore_kwh": 78.98,
+      "min_ore_kwh": 66.93,
+      "max_ore_kwh": 89.73,
+      "hours": 24
+    },
+    {
+      "date": "2026-02-02",
+      "avg_ore_kwh": 81.78,
+      "min_ore_kwh": 68.47,
+      "max_ore_kwh": 97.85,
+      "hours": 24
+    },
+    {
+      "date": "2026-02-03",
+      "avg_ore_kwh": 57.51,
+      "min_ore_kwh": 49.32,
+      "max_ore_kwh": 74.22,
+      "hours": 24
+    },
+    {
+      "date": "2026-02-04",
+      "avg_ore_kwh": 63.01,
+      "min_ore_kwh": 54.37,
+      "max_ore_kwh": 80.67,
+      "hours": 24
+    },
+    {
+      "date": "2026-02-05",
+      "avg_ore_kwh": 76.75,
+      "min_ore_kwh": 65.86,
+      "max_ore_kwh": 92.44,
+      "hours": 24
+    },
+    {
+      "date": "2026-02-06",
+      "avg_ore_kwh": 64.62,
+      "min_ore_kwh": 48.9,
+      "max_ore_kwh": 77.44,
+      "hours": 24
+    },
+    {
+      "date": "2026-02-07",
+      "avg_ore_kwh": 55.06,
+      "min_ore_kwh": 43.07,
+      "max_ore_kwh": 63.43,
+      "hours": 24
+    },
+    {
+      "date": "2026-02-08",
+      "avg_ore_kwh": 60.65,
+      "min_ore_kwh": 49.36,
+      "max_ore_kwh": 72.56,
+      "hours": 24
+    },
+    {
+      "date": "2026-02-09",
+      "avg_ore_kwh": 67.19,
+      "min_ore_kwh": 50.8,
+      "max_ore_kwh": 75.97,
+      "hours": 24
+    },
+    {
+      "date": "2026-02-10",
+      "avg_ore_kwh": 60.56,
+      "min_ore_kwh": 45.79,
+      "max_ore_kwh": 77.2,
+      "hours": 24
+    },
+    {
+      "date": "2026-02-11",
+      "avg_ore_kwh": 71.04,
+      "min_ore_kwh": 61.27,
+      "max_ore_kwh": 88.44,
+      "hours": 24
+    },
+    {
+      "date": "2026-02-12",
+      "avg_ore_kwh": 44.9,
+      "min_ore_kwh": 37.27,
+      "max_ore_kwh": 53.64,
+      "hours": 24
+    },
+    {
+      "date": "2026-02-13",
+      "avg_ore_kwh": 52.57,
+      "min_ore_kwh": 44.75,
+      "max_ore_kwh": 60.26,
+      "hours": 24
+    },
+    {
+      "date": "2026-02-14",
+      "avg_ore_kwh": 66.23,
+      "min_ore_kwh": 52.46,
+      "max_ore_kwh": 81.94,
+      "hours": 24
+    },
+    {
+      "date": "2026-02-15",
+      "avg_ore_kwh": 57.05,
+      "min_ore_kwh": 45.66,
+      "max_ore_kwh": 64.4,
+      "hours": 24
+    },
+    {
+      "date": "2026-02-16",
+      "avg_ore_kwh": 62.92,
+      "min_ore_kwh": 54.06,
+      "max_ore_kwh": 77.0,
+      "hours": 24
+    },
+    {
+      "date": "2026-02-17",
+      "avg_ore_kwh": 56.76,
+      "min_ore_kwh": 49.18,
+      "max_ore_kwh": 71.46,
+      "hours": 24
+    },
+    {
+      "date": "2026-02-18",
+      "avg_ore_kwh": 62.21,
+      "min_ore_kwh": 47.67,
+      "max_ore_kwh": 73.57,
+      "hours": 24
+    },
+    {
+      "date": "2026-02-19",
+      "avg_ore_kwh": 67.58,
+      "min_ore_kwh": 57.89,
+      "max_ore_kwh": 86.68,
+      "hours": 24
+    },
+    {
+      "date": "2026-02-20",
+      "avg_ore_kwh": 79.79,
+      "min_ore_kwh": 68.37,
+      "max_ore_kwh": 91.58,
+      "hours": 24
+    },
+    {
+      "date": "2026-02-21",
+      "avg_ore_kwh": 66.79,
+      "min_ore_kwh": 56.34,
+      "max_ore_kwh": 77.17,
+      "hours": 24
+    },
+    {
+      "date": "2026-02-22",
+      "avg_ore_kwh": 61.22,
+      "min_ore_kwh": 53.45,
+      "max_ore_kwh": 77.34,
+      "hours": 24
+    },
+    {
+      "date": "2026-02-23",
+      "avg_ore_kwh": 58.59,
+      "min_ore_kwh": 49.53,
+      "max_ore_kwh": 69.24,
+      "hours": 24
+    },
+    {
+      "date": "2026-02-24",
+      "avg_ore_kwh": 60.36,
+      "min_ore_kwh": 47.22,
+      "max_ore_kwh": 73.46,
+      "hours": 24
+    },
+    {
+      "date": "2026-02-25",
+      "avg_ore_kwh": 61.73,
+      "min_ore_kwh": 48.26,
+      "max_ore_kwh": 74.59,
+      "hours": 24
+    },
+    {
+      "date": "2026-02-26",
+      "avg_ore_kwh": 61.13,
+      "min_ore_kwh": 52.65,
+      "max_ore_kwh": 74.16,
+      "hours": 24
+    },
+    {
+      "date": "2026-02-27",
+      "avg_ore_kwh": 48.93,
+      "min_ore_kwh": 37.03,
+      "max_ore_kwh": 55.41,
+      "hours": 24
+    },
+    {
+      "date": "2026-02-28",
+      "avg_ore_kwh": 58.36,
+      "min_ore_kwh": 47.26,
+      "max_ore_kwh": 70.34,
+      "hours": 24
+    },
+    {
+      "date": "2026-03-01",
+      "avg_ore_kwh": 40.87,
+      "min_ore_kwh": 30.84,
+      "max_ore_kwh": 46.42,
+      "hours": 24
+    },
+    {
+      "date": "2026-03-02",
+      "avg_ore_kwh": 43.38,
+      "min_ore_kwh": 34.23,
+      "max_ore_kwh": 52.52,
+      "hours": 24
+    },
+    {
+      "date": "2026-03-03",
+      "avg_ore_kwh": 53.38,
+      "min_ore_kwh": 40.64,
+      "max_ore_kwh": 60.74,
+      "hours": 24
+    },
+    {
+      "date": "2026-03-04",
+      "avg_ore_kwh": 65.0,
+      "min_ore_kwh": 56.34,
+      "max_ore_kwh": 76.26,
+      "hours": 24
+    },
+    {
+      "date": "2026-03-05",
+      "avg_ore_kwh": 63.73,
+      "min_ore_kwh": 50.72,
+      "max_ore_kwh": 77.81,
+      "hours": 24
+    },
+    {
+      "date": "2026-03-06",
+      "avg_ore_kwh": 45.1,
+      "min_ore_kwh": 36.48,
+      "max_ore_kwh": 54.32,
+      "hours": 24
+    },
+    {
+      "date": "2026-03-07",
+      "avg_ore_kwh": 75.77,
+      "min_ore_kwh": 60.56,
+      "max_ore_kwh": 86.56,
+      "hours": 24
+    },
+    {
+      "date": "2026-03-08",
+      "avg_ore_kwh": 55.59,
+      "min_ore_kwh": 44.12,
+      "max_ore_kwh": 70.02,
+      "hours": 24
+    },
+    {
+      "date": "2026-03-09",
+      "avg_ore_kwh": 38.47,
+      "min_ore_kwh": 30.2,
+      "max_ore_kwh": 44.73,
+      "hours": 24
+    },
+    {
+      "date": "2026-03-10",
+      "avg_ore_kwh": 42.99,
+      "min_ore_kwh": 35.79,
+      "max_ore_kwh": 51.77,
+      "hours": 24
+    },
+    {
+      "date": "2026-03-11",
+      "avg_ore_kwh": 51.66,
+      "min_ore_kwh": 42.51,
+      "max_ore_kwh": 58.98,
+      "hours": 24
+    },
+    {
+      "date": "2026-03-12",
+      "avg_ore_kwh": 41.05,
+      "min_ore_kwh": 34.0,
+      "max_ore_kwh": 47.28,
+      "hours": 24
+    },
+    {
+      "date": "2026-03-13",
+      "avg_ore_kwh": 54.26,
+      "min_ore_kwh": 41.22,
+      "max_ore_kwh": 61.68,
+      "hours": 24
+    },
+    {
+      "date": "2026-03-14",
+      "avg_ore_kwh": 54.28,
+      "min_ore_kwh": 46.84,
+      "max_ore_kwh": 68.09,
+      "hours": 24
+    }
+  ],
+  "meta": {
+    "source": "hvakosterstrommen.no (seed data — replace with real fetch)",
+    "zone": "NO1",
+    "zone_name": "NO1 — Oslo / Østlandet",
+    "updated": "2026-03-14T09:42:58.251458Z",
+    "days": 365,
+    "note": "SEED DATA — run scripts/fetch_all.py to fetch real data"
+  }
+}
