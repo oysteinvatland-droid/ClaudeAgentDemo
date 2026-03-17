@@ -33,7 +33,13 @@ TEST AGENT
 
 ```bash
 pip install -r requirements.txt
+
+# macOS / Linux
 export ANTHROPIC_API_KEY=sk-ant-...
+
+# Windows PowerShell
+$env:ANTHROPIC_API_KEY = "sk-ant-..."
+
 python agents/orchestrate.py
 ```
 

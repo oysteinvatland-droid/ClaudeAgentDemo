@@ -65,7 +65,13 @@ The `agents/orchestrate.py` script demonstrates three AI agents analyzing this p
 
 ```bash
 pip install -r requirements.txt
+
+# macOS / Linux
 export ANTHROPIC_API_KEY=sk-ant-...
+
+# Windows PowerShell
+$env:ANTHROPIC_API_KEY = "sk-ant-..."
+
 python agents/orchestrate.py
 ```
 
