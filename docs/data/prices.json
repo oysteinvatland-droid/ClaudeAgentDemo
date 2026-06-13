@@ -1,118 +1,111 @@
 {
   "current": {
-    "value": 88.98,
+    "value": 38.03,
     "unit": "øre/kWh",
     "zone": "NO1",
-    "date": "2026-06-12",
-    "change_ore": -10.53,
-    "change_pct": -10.6
+    "date": "2026-06-13",
+    "change_ore": -50.95,
+    "change_pct": -57.3
   },
   "today_hourly": [
     {
-      "hour": "2026-06-12T00",
-      "ore_kwh": 99.25
+      "hour": "2026-06-13T00",
+      "ore_kwh": 79.26
     },
     {
-      "hour": "2026-06-12T01",
-      "ore_kwh": 93.91
+      "hour": "2026-06-13T01",
+      "ore_kwh": 71.18
     },
     {
-      "hour": "2026-06-12T02",
-      "ore_kwh": 87.67
+      "hour": "2026-06-13T02",
+      "ore_kwh": 62.61
     },
     {
-      "hour": "2026-06-12T03",
-      "ore_kwh": 84.72
+      "hour": "2026-06-13T03",
+      "ore_kwh": 56.12
     },
     {
-      "hour": "2026-06-12T04",
-      "ore_kwh": 85.83
+      "hour": "2026-06-13T04",
+      "ore_kwh": 39.13
     },
     {
-      "hour": "2026-06-12T05",
-      "ore_kwh": 87.97
+      "hour": "2026-06-13T05",
+      "ore_kwh": 37.13
     },
     {
-      "hour": "2026-06-12T06",
-      "ore_kwh": 104.76
+      "hour": "2026-06-13T06",
+      "ore_kwh": 32.59
     },
     {
-      "hour": "2026-06-12T07",
-      "ore_kwh": 109.93
+      "hour": "2026-06-13T07",
+      "ore_kwh": 15.43
     },
     {
-      "hour": "2026-06-12T08",
-      "ore_kwh": 110.45
+      "hour": "2026-06-13T08",
+      "ore_kwh": 15.73
     },
     {
-      "hour": "2026-06-12T09",
-      "ore_kwh": 107.36
+      "hour": "2026-06-13T09",
+      "ore_kwh": 15.64
     },
     {
-      "hour": "2026-06-12T10",
-      "ore_kwh": 98.85
+      "hour": "2026-06-13T10",
+      "ore_kwh": 18.21
     },
     {
-      "hour": "2026-06-12T11",
-      "ore_kwh": 91.23
+      "hour": "2026-06-13T11",
+      "ore_kwh": 14.31
     },
     {
-      "hour": "2026-06-12T12",
-      "ore_kwh": 85.16
+      "hour": "2026-06-13T12",
+      "ore_kwh": 0.46
     },
     {
-      "hour": "2026-06-12T13",
-      "ore_kwh": 73.8
+      "hour": "2026-06-13T13",
+      "ore_kwh": -3.82
     },
     {
-      "hour": "2026-06-12T14",
-      "ore_kwh": 60.19
+      "hour": "2026-06-13T14",
+      "ore_kwh": 0.02
     },
     {
-      "hour": "2026-06-12T15",
-      "ore_kwh": 56.62
+      "hour": "2026-06-13T15",
+      "ore_kwh": 34.62
     },
     {
-      "hour": "2026-06-12T16",
-      "ore_kwh": 55.58
+      "hour": "2026-06-13T16",
+      "ore_kwh": 19.11
     },
     {
-      "hour": "2026-06-12T17",
-      "ore_kwh": 72.8
+      "hour": "2026-06-13T17",
+      "ore_kwh": 27.17
     },
     {
-      "hour": "2026-06-12T18",
-      "ore_kwh": 86.73
+      "hour": "2026-06-13T18",
+      "ore_kwh": 30.54
     },
     {
-      "hour": "2026-06-12T19",
-      "ore_kwh": 92.08
+      "hour": "2026-06-13T19",
+      "ore_kwh": 38.4
     },
     {
-      "hour": "2026-06-12T20",
-      "ore_kwh": 99.78
+      "hour": "2026-06-13T20",
+      "ore_kwh": 68.41
     },
     {
-      "hour": "2026-06-12T21",
-      "ore_kwh": 100.0
+      "hour": "2026-06-13T21",
+      "ore_kwh": 80.99
     },
     {
-      "hour": "2026-06-12T22",
-      "ore_kwh": 99.11
+      "hour": "2026-06-13T22",
+      "ore_kwh": 82.4
     },
     {
-      "hour": "2026-06-12T23",
-      "ore_kwh": 91.62
+      "hour": "2026-06-13T23",
+      "ore_kwh": 77.06
     }
   ],
   "history": [
-    {
-      "date": "2025-06-13",
-      "avg_ore_kwh": 61.73,
-      "min_ore_kwh": 32.65,
-      "max_ore_kwh": 74.09,
-      "hours": 24
-    },
     {
       "date": "2025-06-14",
       "avg_ore_kwh": 46.99,
@@ -1767,10 +1760,11 @@
     },
     {
       "date": "2026-02-05",
-      "avg_ore_kwh": 126.95,
-      "min_ore_kwh": 103.97,
-      "max_ore_kwh": 158.93,
-      "hours": 24
+      "avg_ore_kwh": 120.55,
+      "min_ore_kwh": 107.97,
+      "max_ore_kwh": 147.29,
+      "hours": 24,
+      "note": "estimated"
     },
     {
       "date": "2026-02-06",
@@ -2660,13 +2654,20 @@
       "min_ore_kwh": 55.58,
       "max_ore_kwh": 110.45,
       "hours": 24
+    },
+    {
+      "date": "2026-06-13",
+      "avg_ore_kwh": 38.03,
+      "min_ore_kwh": -3.82,
+      "max_ore_kwh": 82.4,
+      "hours": 24
     }
   ],
   "meta": {
     "source": "hvakosterstrommen.no",
     "zone": "NO1",
     "zone_name": "NO1 — Oslo / Østlandet",
-    "updated": "2026-06-12T17:19:59.345967Z",
+    "updated": "2026-06-13T08:47:19.613996Z",
     "days": 365
   }
 }
