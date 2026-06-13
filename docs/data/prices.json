@@ -1760,11 +1760,10 @@
     },
     {
       "date": "2026-02-05",
-      "avg_ore_kwh": 120.55,
-      "min_ore_kwh": 107.97,
-      "max_ore_kwh": 147.29,
-      "hours": 24,
-      "note": "estimated"
+      "avg_ore_kwh": 126.95,
+      "min_ore_kwh": 103.97,
+      "max_ore_kwh": 158.93,
+      "hours": 24
     },
     {
       "date": "2026-02-06",
@@ -2667,7 +2666,7 @@
     "source": "hvakosterstrommen.no",
     "zone": "NO1",
     "zone_name": "NO1 — Oslo / Østlandet",
-    "updated": "2026-06-13T08:47:19.613996Z",
+    "updated": "2026-06-13T15:55:11.165144Z",
     "days": 365
   }
 }
